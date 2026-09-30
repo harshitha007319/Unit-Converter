@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🔄 Unit Converter</h1>
+        <p>Convert common units easily</p>
+
+        <label>Enter Value</label>
+        <input type="number" id="value" placeholder="Enter value">
+
+        <label>Conversion</label>
+        <select id="conversion">
+            <option value="km-m">Kilometer → Meter</option>
+            <option value="m-km">Meter → Kilometer</option>
+            <option value="kg-g">Kilogram → Gram</option>
+            <option value="g-kg">Gram → Kilogram</option>
+            <option value="c-f">Celsius → Fahrenheit</option>
+            <option value="f-c">Fahrenheit → Celsius</option>
+        </select>
+
+        <button onclick="convert()">Convert</button>
+
+        <div class="result">
+            <h2>Result</h2>
+            <p id="result">-</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
