@@ -53,7 +53,8 @@ The main objective of this project is to create a simple tool for performing com
 
 ## 📸 Project Preview
 
-> Add a screenshot of your Unit Converter here to show how your project looks! 🖼️
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/31b722d5-c577-49f1-b1b2-0b25e77e5205" />
+
 
 ---
 
